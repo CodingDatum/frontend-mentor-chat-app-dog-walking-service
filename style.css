@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    transition: 1s ease all;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+.background-1{
+    position: absolute;
+    height: 95%;
+    width: 400px;
+    background: linear-gradient(225deg, rgb(233, 66, 255), hsl(264, 100%, 61%) );
+    border-radius: 0 0 700px 700px;
+    z-index: -1;
+}
+
+.background-2{
+    position: absolute;
+    background-color:rgba(211, 211, 211, 0.1);
+    height: 85%;
+    width: 400px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 700px 700px 0 0;
+    z-index: -1;
+}
+
+.phone-container{
+    background-color: white;
+    box-shadow: 0 0 50px -25px hsl(264, 100%, 61%) ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+    position: absolute;
+    left: 320px;
+    top: 80px;
+
+    height: 570px;
+    width: 280px;
+
+    padding: 10px;
+}
+
+.phone-heading{
+    height: 80px;
+    background: linear-gradient(270deg, rgb(233, 66, 255), hsl(264, 100%, 61%) );
+    border-radius: 20px 20px 5px 5px;
+    padding: 10px;
+
+}
+
+.phone-heading-whitespace{
+
+    background-color: white;
+    height: 30px;
+    width: 124px;
+    margin: -20px auto;
+    border-radius: 15px;
+
+}
+
+.phone-heading-info{
+    height: 100%;
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+#profile-pic{
+    width: 30px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+.triple-dot{
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+    border-left: 3px dotted hsl(276, 100%, 81%);;
+}
+
+.left-heading{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 140px;
+}
+
+.font-grey{
+    color: hsl(276, 100%, 81%);
+}
+
+.phone-body{
+    background-color: rgb(245,243,247);
+    height: 100%;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+
+.left-side-text{
+    width: 65%;
+    background-color: rgb(236,228,241);
+    border-radius: 10px 10px 10px 0px;
+    color: rgb(168,105,210);
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+}
+
+.right-side-text{
+
+    background-color: white;
+    width: 65%;
+    margin-left: auto;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 10px 10px 0px 10px;
+
+    color:  hsl(271, 15%, 43%);
+
+    box-shadow: 0px 3px 50px -15px;
+
+}
+
+.text-images{
+    width: 65%;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+
+.text-image{
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.time-slots{
+    background: linear-gradient(270deg, hsl(264, 100%, 61%), rgb(233, 66, 255) );
+    display: flex;
+    align-items: center;;
+    color: white;
+    width: 90%;
+}
+
+.price{
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.button{
+    border-radius: 100%;
+    margin-right: 10px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid grey;
+}
+
+input{
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+::placeholder{
+
+    color: lightgrey;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+
+}
+
+button{
+
+    margin-top: 10px;
+    margin-left: -30px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.text{
+    visibility: hidden;
+}
+
